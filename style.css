@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .container {
+    width: 80%;
+    max-width: 1470px;
+    margin: 0 auto;
+} */
+
+
+.primary-button {
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    padding: 10px 24px;
+}
+
+/* 
+.fa-square-caret-right {
+    margin-left: 8px;
+} */
+
+header {
+    padding: 25px 120px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+nav h3 {
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 34px;
+}
+
+
+.banner-section {
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-title {}
+
+.banner-title h1 {
+    max-width: 582px;
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.banner-title p {
+    max-width: 505px;
+    ;
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.banner-image {
+    background-image: url(images/Circle-design.svg);
+    margin: 50px auto;
+
+}
+
+.banner-image img {
+    width: 100%;
+}
+
+.sponsor-logo {
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sponsor-logo img {}
+
+.line {
+    margin: 0 auto;
+    fill: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+    padding: 50px 0;
+}
+
+
+
+
+
+/* ========================================
+Responciv css
+========================================== */
+
+
+/* Mobile Device */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    nav {
+        flex-direction: column;
+
+    }
+
+    nav h3 {
+        color: #3A3A3A;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 24px;
+        font-weight: 700;
+        margin: 20px auto;
+    }
+}
+
+
+/* tablet design */
+@media screen and (min-width:576) and (max-width:960px){
+    nav {
+        flex-direction: column;
+
+    }
+}
+
+
+
+/* tablet design */
+@media screen and (min-width:576) and (max-width:960px){
+    nav {
+        flex-direction: column;
+    }
+}
